@@ -2,8 +2,7 @@ div{
     height: 500px;
     width: 300px;
     background-color: aqua;
-    overflow-x: scroll;
-    overflow-y: scroll;
+    overflow:auto;
 }
 p{
     width: 400px;
