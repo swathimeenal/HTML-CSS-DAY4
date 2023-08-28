@@ -13,8 +13,53 @@ p{
     padding: 30px;
 }
 */
-/*.fa-x-twitter{
+/*
+.fa-x-twitter{
+height: 50px;
+width: 50px;
+background-color: brown;} 
+*/
+/*.icons{
     height: 50px;
 width: 50px;
-background-color: brown;} */
+background-color: red;
+}
+*/
 
+/*ul{
+    width: 50%;
+    height: 50%;
+    background-color:firebrick;
+}
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+}
+p{
+    width: 60ch;
+    text-align: justify;
+}
+h1{
+    color: blue;
+}
+*/
+@media(min-width:700px) {
+    .header{
+        color: aqua;
+        background-color: red;
+        padding:30px;
+        margin:20px;
+        border: 5px solid black
+}
+
+}
+@media(max-width: 500px){
+    .header{
+        background-color: blueviolet;
+        color:black;
+        padding:40px;
+        margin:30px;
+        border: 5px solid yellow
+    }
+}
